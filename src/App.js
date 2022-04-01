@@ -1,20 +1,10 @@
+import Section from './components/Section/Section.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <section>
-        <h1>SCORE 1</h1>
-      </section>
-      <section>
-        <h1>SCORE 2</h1>
-      </section>
-      <section>
-        <h1>SCORE 3</h1>
-      </section>
-      <section>
-        <h1>SCORE 4</h1>
-      </section>
+      <Section></Section>
     </div>
   );
 }
