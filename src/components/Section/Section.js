@@ -1,9 +1,9 @@
 import './Section.css';
 
-function Section() {
+function Section(score) {
     return (
         <section className="section">
-            <h1>SCORE</h1>
+            <h1>Level {score.score} </h1>
         </section>
     );
 }
